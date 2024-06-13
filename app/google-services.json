@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1039096820186",
+    "project_id": "macrotrackertfg",
+    "storage_bucket": "macrotrackertfg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039096820186:android:3157eee9a61f5f84ead0e3",
+        "android_client_info": {
+          "package_name": "com.example.estacionesesqui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXiOZfkJRVV5M0RJIHxYtZOvNwrOaFgEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
