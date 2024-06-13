@@ -239,13 +239,13 @@ fun BarChartView(consumedCalories: Float, dailyCalories: Float) {
             val barHeight = size.height
             val progressWidth = barWidth * progress
 
-            // Draw daily calories bar
+
             drawRect(
                 color = Color.LightGray,
                 size = androidx.compose.ui.geometry.Size(barWidth, barHeight)
             )
 
-            // Draw consumed calories progress
+
             drawRect(
                 color = progressColor,
                 size = androidx.compose.ui.geometry.Size(progressWidth, barHeight)
@@ -470,7 +470,7 @@ fun Pantalla4(navigationController: NavHostController, comida: Comida, viewModel
             label = { Text("Cantidad (g)") },
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number,
                 imeAction = ImeAction.Done),
-            //keyboardActions = KeyboardActions(onDone = )
+
 
 
         )
